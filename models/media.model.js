@@ -22,7 +22,7 @@ const mediaSchema = new mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        enum: ['Yoga', 'Meditation', 'Self-Acceptance', 'Jog', 'Cardio Dance', 'Therapy Music']
+        enum: ['Yoga', 'Meditation', 'Self-Acupuncture', 'Jog', 'Cardio Dance', 'Therapy Music']
     }
 });
 
